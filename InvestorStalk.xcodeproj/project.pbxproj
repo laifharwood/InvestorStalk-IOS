@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED201371BF684BE00A6C9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED201361BF684BE00A6C9E8 /* AppDelegate.swift */; };
+		EED201391BF684BE00A6C9E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED201381BF684BE00A6C9E8 /* ViewController.swift */; };
+		EED2013C1BF684BE00A6C9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2013A1BF684BE00A6C9E8 /* Main.storyboard */; };
+		EED2013E1BF684BE00A6C9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED2013D1BF684BE00A6C9E8 /* Assets.xcassets */; };
+		EED201411BF684BE00A6C9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED2013F1BF684BE00A6C9E8 /* LaunchScreen.storyboard */; };
+		EED2014C1BF684BE00A6C9E8 /* InvestorStalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2014B1BF684BE00A6C9E8 /* InvestorStalkTests.swift */; };
+		EED201571BF684BE00A6C9E8 /* InvestorStalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED201561BF684BE00A6C9E8 /* InvestorStalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED201481BF684BE00A6C9E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED2012B1BF684BE00A6C9E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED201321BF684BE00A6C9E8;
+			remoteInfo = InvestorStalk;
+		};
+		EED201531BF684BE00A6C9E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED2012B1BF684BE00A6C9E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED201321BF684BE00A6C9E8;
+			remoteInfo = InvestorStalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EED201331BF684BE00A6C9E8 /* InvestorStalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestorStalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED201361BF684BE00A6C9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED201381BF684BE00A6C9E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EED2013B1BF684BE00A6C9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED2013D1BF684BE00A6C9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED201401BF684BE00A6C9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED201421BF684BE00A6C9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED201471BF684BE00A6C9E8 /* InvestorStalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestorStalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED2014B1BF684BE00A6C9E8 /* InvestorStalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestorStalkTests.swift; sourceTree = "<group>"; };
+		EED2014D1BF684BE00A6C9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED201521BF684BE00A6C9E8 /* InvestorStalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestorStalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED201561BF684BE00A6C9E8 /* InvestorStalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestorStalkUITests.swift; sourceTree = "<group>"; };
+		EED201581BF684BE00A6C9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED201301BF684BE00A6C9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED201441BF684BE00A6C9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED2014F1BF684BE00A6C9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED2012A1BF684BE00A6C9E8 = {
+			isa = PBXGroup;
+			children = (
+				EED201351BF684BE00A6C9E8 /* InvestorStalk */,
+				EED2014A1BF684BE00A6C9E8 /* InvestorStalkTests */,
+				EED201551BF684BE00A6C9E8 /* InvestorStalkUITests */,
+				EED201341BF684BE00A6C9E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED201341BF684BE00A6C9E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED201331BF684BE00A6C9E8 /* InvestorStalk.app */,
+				EED201471BF684BE00A6C9E8 /* InvestorStalkTests.xctest */,
+				EED201521BF684BE00A6C9E8 /* InvestorStalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED201351BF684BE00A6C9E8 /* InvestorStalk */ = {
+			isa = PBXGroup;
+			children = (
+				EED201361BF684BE00A6C9E8 /* AppDelegate.swift */,
+				EED201381BF684BE00A6C9E8 /* ViewController.swift */,
+				EED2013A1BF684BE00A6C9E8 /* Main.storyboard */,
+				EED2013D1BF684BE00A6C9E8 /* Assets.xcassets */,
+				EED2013F1BF684BE00A6C9E8 /* LaunchScreen.storyboard */,
+				EED201421BF684BE00A6C9E8 /* Info.plist */,
+			);
+			path = InvestorStalk;
+			sourceTree = "<group>";
+		};
+		EED2014A1BF684BE00A6C9E8 /* InvestorStalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED2014B1BF684BE00A6C9E8 /* InvestorStalkTests.swift */,
+				EED2014D1BF684BE00A6C9E8 /* Info.plist */,
+			);
+			path = InvestorStalkTests;
+			sourceTree = "<group>";
+		};
+		EED201551BF684BE00A6C9E8 /* InvestorStalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EED201561BF684BE00A6C9E8 /* InvestorStalkUITests.swift */,
+				EED201581BF684BE00A6C9E8 /* Info.plist */,
+			);
+			path = InvestorStalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED201321BF684BE00A6C9E8 /* InvestorStalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED2015B1BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalk" */;
+			buildPhases = (
+				EED2012F1BF684BE00A6C9E8 /* Sources */,
+				EED201301BF684BE00A6C9E8 /* Frameworks */,
+				EED201311BF684BE00A6C9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvestorStalk;
+			productName = InvestorStalk;
+			productReference = EED201331BF684BE00A6C9E8 /* InvestorStalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EED201461BF684BE00A6C9E8 /* InvestorStalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED2015E1BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalkTests" */;
+			buildPhases = (
+				EED201431BF684BE00A6C9E8 /* Sources */,
+				EED201441BF684BE00A6C9E8 /* Frameworks */,
+				EED201451BF684BE00A6C9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED201491BF684BE00A6C9E8 /* PBXTargetDependency */,
+			);
+			name = InvestorStalkTests;
+			productName = InvestorStalkTests;
+			productReference = EED201471BF684BE00A6C9E8 /* InvestorStalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EED201511BF684BE00A6C9E8 /* InvestorStalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED201611BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalkUITests" */;
+			buildPhases = (
+				EED2014E1BF684BE00A6C9E8 /* Sources */,
+				EED2014F1BF684BE00A6C9E8 /* Frameworks */,
+				EED201501BF684BE00A6C9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED201541BF684BE00A6C9E8 /* PBXTargetDependency */,
+			);
+			name = InvestorStalkUITests;
+			productName = InvestorStalkUITests;
+			productReference = EED201521BF684BE00A6C9E8 /* InvestorStalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED2012B1BF684BE00A6C9E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = LaifHarwood;
+				TargetAttributes = {
+					EED201321BF684BE00A6C9E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					EED201461BF684BE00A6C9E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EED201321BF684BE00A6C9E8;
+					};
+					EED201511BF684BE00A6C9E8 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = EED201321BF684BE00A6C9E8;
+					};
+				};
+			};
+			buildConfigurationList = EED2012E1BF684BE00A6C9E8 /* Build configuration list for PBXProject "InvestorStalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED2012A1BF684BE00A6C9E8;
+			productRefGroup = EED201341BF684BE00A6C9E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED201321BF684BE00A6C9E8 /* InvestorStalk */,
+				EED201461BF684BE00A6C9E8 /* InvestorStalkTests */,
+				EED201511BF684BE00A6C9E8 /* InvestorStalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED201311BF684BE00A6C9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED201411BF684BE00A6C9E8 /* LaunchScreen.storyboard in Resources */,
+				EED2013E1BF684BE00A6C9E8 /* Assets.xcassets in Resources */,
+				EED2013C1BF684BE00A6C9E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED201451BF684BE00A6C9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED201501BF684BE00A6C9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED2012F1BF684BE00A6C9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED201391BF684BE00A6C9E8 /* ViewController.swift in Sources */,
+				EED201371BF684BE00A6C9E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED201431BF684BE00A6C9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED2014C1BF684BE00A6C9E8 /* InvestorStalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED2014E1BF684BE00A6C9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED201571BF684BE00A6C9E8 /* InvestorStalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED201491BF684BE00A6C9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED201321BF684BE00A6C9E8 /* InvestorStalk */;
+			targetProxy = EED201481BF684BE00A6C9E8 /* PBXContainerItemProxy */;
+		};
+		EED201541BF684BE00A6C9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED201321BF684BE00A6C9E8 /* InvestorStalk */;
+			targetProxy = EED201531BF684BE00A6C9E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EED2013A1BF684BE00A6C9E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED2013B1BF684BE00A6C9E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EED2013F1BF684BE00A6C9E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED201401BF684BE00A6C9E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED201591BF684BE00A6C9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED2015A1BF684BE00A6C9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED2015C1BF684BE00A6C9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvestorStalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EED2015D1BF684BE00A6C9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvestorStalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EED2015F1BF684BE00A6C9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvestorStalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestorStalk.app/InvestorStalk";
+			};
+			name = Debug;
+		};
+		EED201601BF684BE00A6C9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvestorStalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvestorStalk.app/InvestorStalk";
+			};
+			name = Release;
+		};
+		EED201621BF684BE00A6C9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvestorStalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvestorStalk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EED201631BF684BE00A6C9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvestorStalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LaifHarwood.InvestorStalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvestorStalk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED2012E1BF684BE00A6C9E8 /* Build configuration list for PBXProject "InvestorStalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED201591BF684BE00A6C9E8 /* Debug */,
+				EED2015A1BF684BE00A6C9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED2015B1BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED2015C1BF684BE00A6C9E8 /* Debug */,
+				EED2015D1BF684BE00A6C9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EED2015E1BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED2015F1BF684BE00A6C9E8 /* Debug */,
+				EED201601BF684BE00A6C9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EED201611BF684BE00A6C9E8 /* Build configuration list for PBXNativeTarget "InvestorStalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED201621BF684BE00A6C9E8 /* Debug */,
+				EED201631BF684BE00A6C9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED2012B1BF684BE00A6C9E8 /* Project object */;
+}
