@@ -12,8 +12,14 @@ class FollowingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.whiteColor()
 
         // Do any additional setup after loading the view.
+        let testLabel = UILabel(frame: CGRectMake(20,50, self.view.frame.width, 60))
+        testLabel.text = "This is Following"
+        testLabel.textColor = UIColor.blackColor()
+        self.view.addSubview(testLabel)
     }
 
     override func didReceiveMemoryWarning() {
